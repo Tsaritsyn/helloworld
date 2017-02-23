@@ -25,6 +25,7 @@ string prepare (const string &s)
 	return res;
 }
 
+// странное название для структуры. в названии нужно существительное
 struct one
 {
 	string word;
@@ -57,6 +58,7 @@ int main(int argc, char **argv)
 	vector < one > v;
 	one buf;
 	
+	// auto it = ... короче
 	for (statistics::iterator it = a.begin(); it != a.end(); ++it)
 	{
 		buf.word = it -> first;
